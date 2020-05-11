@@ -1,3 +1,4 @@
+
 import java.awt.Color;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -13,7 +14,6 @@ public class VistaPrincipalTemplate extends JFrame {
     private JTextField passLog;
     private JLabel luser;
     private JLabel lpass;
-    
 public VistaPrincipalTemplate(){
     setTitle("Discord Login");
     this.mensaje("Daniel");
@@ -23,8 +23,6 @@ public VistaPrincipalTemplate(){
     setLocationRelativeTo(this);
     getContentPane().setBackground(Color.red);
     setVisible(true);
-    
-
 }
 public void mensaje(String nombre){
     System.out.println("Hola Bienvenido a Discord "+nombre);
